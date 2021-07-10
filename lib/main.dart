@@ -30,7 +30,7 @@ List<String> titles = [
   "GetX Sample 1",
   "UI_1",
   "SociaWorld",
-  "FMarket",
+  "FMarket UI",
 ];
 
 void main() => runApp(MyApp());
