@@ -8,6 +8,7 @@ import 'samples/json_sample1/main.dart';
 import 'samples/listview/main.dart';
 import 'samples/signUp_page/main.dart';
 import 'samples/sociaworld/main.dart';
+import 'samples/url_launcher/main.dart';
 
 List<Widget> screenList = [
   HataSayfalar(),
@@ -19,6 +20,7 @@ List<Widget> screenList = [
   UI1(),
   SociaWorld(),
   FMarket(),
+  OpenURL(),
 ];
 
 List<String> titles = [
@@ -31,6 +33,7 @@ List<String> titles = [
   "UI_1",
   "SociaWorld",
   "FMarket UI",
+  "Url Launcher",
 ];
 
 void main() => runApp(MyApp());
