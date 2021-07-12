@@ -21,6 +21,7 @@ List<Widget> screenList = [
   SociaWorld(),
   FMarket(),
   OpenURL(),
+  HttpApp(),
 ];
 
 List<String> titles = [
@@ -34,6 +35,7 @@ List<String> titles = [
   "SociaWorld",
   "FMarket UI",
   "Url Launcher",
+  "Http Sample",
 ];
 
 void main() => runApp(MyApp());
