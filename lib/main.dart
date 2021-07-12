@@ -4,6 +4,7 @@ import 'package:flutter_all_samples/samples/getX_sample_1/main.dart';
 import 'samples/cardui_1/card.dart';
 import 'samples/error_pages/main.dart';
 import 'samples/fMarket/main.dart';
+import 'samples/httpSample/main.dart';
 import 'samples/json_sample1/main.dart';
 import 'samples/listview/main.dart';
 import 'samples/signUp_page/main.dart';
