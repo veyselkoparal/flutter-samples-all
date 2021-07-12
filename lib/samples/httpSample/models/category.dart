@@ -3,10 +3,11 @@ class Category {
   late String categoryName;
   late String seoUrl;
 
-  Category({required this.id, required this.categoryName, required this.seoUrl});
+  Category(
+      {required this.id, required this.categoryName, required this.seoUrl});
 
   Category.fromJson(Map json) {
-    id = json["id"];
+    id = int.parse(json["id"]);
     categoryName = json["categoryName"];
     seoUrl = json["seoUrl"];
   }

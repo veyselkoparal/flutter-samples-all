@@ -7,7 +7,7 @@ class Product {
 
   Product.fromJson(Map json) {
     userId = json["userId"];
-    id = json["id"];
+    id = int.parse(json["id"]);
     title = json["title"];
   }
 

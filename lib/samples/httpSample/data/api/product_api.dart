@@ -7,7 +7,9 @@ class ProductApi {
   }
 
   static Future getProductsByCategoryId(int userId) {
-    var url = Uri.parse("http://elmawarid.com/flutter/products.php?userId=$userId");
+    var url = Uri.parse(
+        "http://elmawarid.com/flutter/http/products.php?userId=" +
+            userId.toString());
     return http.get(url);
   }
 }

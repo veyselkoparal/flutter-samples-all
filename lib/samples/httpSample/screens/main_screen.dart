@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:legacy_buttons/legacy_buttons.dart';
 import '../data/api/category_api.dart';
