@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../models/products.dart';
 
 class ProductListRowWidget extends StatelessWidget {
-  Product product;
+  final Product product;
   ProductListRowWidget(this.product);
 
   @override

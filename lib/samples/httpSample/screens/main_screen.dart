@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:legacy_buttons/legacy_buttons.dart';
 import '../data/api/category_api.dart';
 import '../data/api/product_api.dart';
 import '../models/category.dart';
@@ -69,7 +70,7 @@ class MainScreenState extends State {
   }
 
   Widget getCategoryWidget(Category category) {
-    return FlatButton(
+    return LegacyFlatButton(
       onPressed: () {
         getProductsByCategoryId(category);
       },
