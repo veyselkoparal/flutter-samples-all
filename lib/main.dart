@@ -28,7 +28,7 @@ List<Widget> screenList = [
 List<String> titles = [
   "Error Page",
   "ListView Page",
-  "Card UI 1",
+  "Card UI",
   "Breaking Bad (Json)",
   "Signup Page",
   "GetX Sample 1",
